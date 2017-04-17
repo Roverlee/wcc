@@ -181,9 +181,9 @@ class ACCOUNT(Base):    #ie accounts is the sqlite table i create, the other nam
 
 
 #count is max number of tweets to try and retrieve for each handle, 200 is max value
-def get_data(kid):
-    try:
-        d = t.get_user_timeline(screen_name=kid, count="200", page="2", include_entities="true", include_rts="1")  #NEW LINE
+def get_data(kid):                                                                          #this is causing me some trouble, maybe two sets ? or use easier code? or rewrite the code?
+    try:                                     #removed count here count="200",                                               #i added max id here to get older tweets, after checking in sql..could add and phrase maybe but just ran each one..
+        d = t.get_user_timeline(screen_name=kid,page="2", include_entities="true", include_rts="1", since_id="850800045012201473")  #NEW LINE#max_id="824977251846541312" but didnt work with potus, maybe run each?
 
     except Exception, e:
 

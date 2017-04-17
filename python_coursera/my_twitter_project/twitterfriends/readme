@@ -1,0 +1,11 @@
+got the tweets back to jan 20 or so --- so perhaps use this:
+
+http://www.curiositybits.com/new-page-2/
+
+to go back and get the rest by setting the date to a limit?? or using the tweet id?
+
+
+#next step is to take twitter2.py and make it for a users tweets..or timeline..
+ie go to the api twitter page to grab that, test, then
+try to make the sql table set up? and avoid duplicates, the old code might
+be helpful, or modify the old code..
