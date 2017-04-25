@@ -16,7 +16,7 @@ TWITTER_URL = 'https://api.twitter.com/1.1/friends/list.json'
 
 scontext = None
 #i have to make it so it replaces the table or something else
-conn = sqlite3.connect('twitterfriend7.sqlite')
+conn = sqlite3.connect('twitterfriend.sqlite')
 cur = conn.cursor()
 
 
@@ -67,7 +67,7 @@ while True:
         friendtwitterhandle = us['screen_name']
         friendname = us['name']
         friendid = us['id_str']
-        twitterimage = us['profile_image_url_https']
+        twitterimage = us['profile_image_url']
         friendfollowerscount = us['followers_count']
         description = us['description']
         friendscount = us['friends_count']

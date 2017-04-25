@@ -1,0 +1,17 @@
+{"nodes":[
+{"id": "Martha","group": 1},
+{"id": "John Legere","group": 2},
+{"id": "T-Mobile📱","group": 2},
+{"id": "sundarpichai","group": 2},
+{"id": "Elon Musk","group": 2},
+{"id": "Rihanna","group": 2}
+],
+
+"links":[
+{"source": "John Legere", "target" : "Martha","value":1},
+{"source": "T-Mobile📱", "target" : "Martha","value":1},
+{"source": "sundarpichai", "target" : "Martha","value":1},
+{"source": "Elon Musk", "target" : "Martha","value":1},
+{"source": "Rihanna", "target" : "Martha","value":1}
+]
+}
